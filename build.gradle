@@ -12,6 +12,7 @@ repositories {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     compile 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.2'
+    compile 'com.h2database:h2:1.4.197'
 }
 
 compileKotlin {
